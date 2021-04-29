@@ -692,6 +692,10 @@ Residential & Individual Page Styles
   background-repeat: no-repeat:
 }
 
+#headline-residential {
+  line-height: 70px;
+}
+
 /**************************
 Media Queries & Breakpoints
 **************************/
@@ -904,6 +908,20 @@ Media Queries & Breakpoints
     padding-right: 0px;
     font-weight: 400;
     color: #459abd;
+  }
+
+  #headline-residential {
+    line-height: 40px;
+    padding-bottom: 15px;
+  }
+
+  #residential-mover p {
+    color: #fff;
+    padding-bottom: 15px;
+  }
+
+  #residential-mover p br {
+    display: none;
   }
 }
 
