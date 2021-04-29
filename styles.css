@@ -1,0 +1,1036 @@
+@import url("https://fonts.googleapis.com/css2?family=Sarabun:wght@100;300;400;500;600;700;800&display=swap");
+
+/**************************
+Global Reset
+**************************/
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "Sarabun", sans-serif;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #343a40;
+}
+
+/**************************
+Navigation Brand/Logo
+**************************/
+.navbar {
+  -webkit-box-shadow: 0px 1px 20px grey;
+  box-shadow: 0px 1px 20px grey;
+}
+
+.navbar-brand img {
+  width: 200px;
+  height: auto;
+}
+
+/**************************
+Hero/Banner & Buttons
+**************************/
+.mover {
+  padding-left: 110px;
+}
+
+.hero-button1 {
+  background-color: #ff6b0b;
+  border-radius: 0;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.hero-button1:hover {
+  background-color: #ff6b0b;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.hero-button2 {
+  background-color: transparent;
+  border-radius: 0;
+  border: 1px solid #ff6b0b;
+  color: #343a40;
+  font-weight: 400;
+}
+
+.hero-button2:hover {
+  background-color: #ff6b0b;
+  border: 1px solid #ff6b0b;
+  color: white;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.highlight-phone .container {
+  max-width: 100vw;
+}
+
+/**************************
+X - Graphic
+**************************/
+.xGraphic {
+  width: auto;
+  height: 532px;
+  position: absolute;
+  left: 340px;
+}
+
+/**************************
+CTA - Content
+**************************/
+.ctaContainer {
+  max-width: 100%;
+}
+
+/**************************
+Shipping Solutions - Content
+**************************/
+.intro h2 {
+  font-family: Arial, sans-serif, sans-serif;
+  font-size: 39px;
+  font-weight: bold;
+  letter-spacing: -2px;
+  color: #343a40;
+  margin-top: 100px;
+  line-height: 60px;
+}
+
+.intro p {
+  font-family: "Sarabun", sans-serif, sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+  padding-bottom: 30px;
+}
+
+.item h3 {
+  font-family: Arial, sans-serif, sans-serif;
+  font-weight: bold;
+  letter-spacing: -1px;
+  font-size: 17px;
+  margin-top: 40px;
+}
+
+.item p {
+  font-family: "Sarabun", sans-serif, sans-serif;
+  font-weight: 100;
+  font-size: 14px;
+  text-align: left;
+}
+
+/**************************
+One Step Logistics Services - Content
+**************************/
+.bottom .container-fluid {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.intro2 h2 {
+  margin-top: -10px;
+}
+
+.name {
+  font-family: "Sarabun", sans-serif, sans-serif;
+  font-weight: bold;
+  letter-spacing: -0.5px;
+  font-size: 18px;
+  margin-top: 40px;
+}
+
+.description {
+  font-family: "Sarabun", sans-serif, sans-serif;
+  font-weight: 100;
+  font-size: 14px;
+  text-align: center;
+}
+
+/**************************
+Why FreightCenter - Content
+**************************/
+.whyFC {
+  padding-bottom: 10px;
+}
+
+/**************************
+Overrides
+**************************/
+.features-blue .intro {
+  max-width: 750px;
+}
+
+.ShippingSolutions {
+  max-width: 70%;
+}
+
+.highlight-phone {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  min-height: 78vh;
+}
+
+.highlight-phone .container .row {
+  height: 78vh;
+}
+
+.features-blue h2 {
+  margin-bottom: 10px;
+}
+
+.features-blue .item .name {
+  margin-bottom: 5px;
+}
+
+#den-freight-row,
+#smallbiz-ltl-lt-row {
+  width: 90vw;
+  margin: auto;
+}
+
+#small-biz-padding {
+  padding: 20px 20px 0px 20px;
+  text-align: center;
+}
+
+#den-freight-section {
+  padding-top: 50px;
+}
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -5px;
+  margin-left: -5px;
+  padding-bottom: 30px;
+}
+
+/**************************
+Footer
+**************************/
+#footer {
+  background-color: #273137;
+  color: white;
+  padding-bottom: 40px;
+}
+
+.logo-footer {
+  width: 50%;
+  height: auto;
+}
+
+.icon-img {
+  width: 5%;
+  height: auto;
+  display: block;
+  position: relative;
+  top: 30px;
+  left: 80px;
+}
+
+.icon-txt {
+  color: white;
+  display: block;
+  text-align: left;
+  position: relative;
+  top: 8px;
+  left: 110px;
+  margin-bottom: -5px;
+}
+
+.social-icons {
+  width: 50%;
+}
+
+#footer-links h5 {
+  color: rgba(255, 255, 255, 0.39);
+  font-family: Arial, sans-serif;
+}
+
+#shipping-resource-list li {
+  text-align: left;
+}
+
+#shipping-resource-list li a {
+  text-decoration: none;
+  color: white;
+  position: relative;
+  left: 82px;
+  top: 10px;
+}
+
+#shipping-resource-list-fc li {
+  text-align: left;
+}
+
+#shipping-resource-list-fc li a {
+  text-decoration: none;
+  color: white;
+  position: relative;
+  left: 108px;
+  top: 10px;
+}
+
+#shipping-resource-list-follow li {
+  text-align: left;
+}
+
+#shipping-resource-list-follow li a {
+  text-decoration: none;
+  color: white;
+  position: relative;
+  left: 125px;
+  top: 10px;
+}
+
+.footer-copyright {
+  position: relative;
+  top: 20px;
+  left: 100px;
+  margin-bottom: 40px;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.dba-logos {
+  position: relative;
+  top: 20px;
+  left: 400px;
+  margin-bottom: 40px;
+  font-size: 14px;
+}
+
+.dba-logos img {
+  width: 8%;
+  height: auto;
+  padding-left: 20px;
+  margin-top: -20px;
+}
+
+/**************************
+Features- Blue
+**************************/
+.features-blue {
+  color: #fff;
+  background: linear-gradient(135deg, #172a74, #21a9af);
+  background-color: #184e8e;
+  padding-bottom: 30px;
+}
+
+@media (max-width:767px) {
+  .features-blue {
+    padding-bottom: 10px;
+  }
+}
+
+.features-blue p {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.features-blue h2 {
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: inherit;
+}
+
+@media (max-width:767px) {
+  .features-blue h2 {
+    margin-bottom: 25px;
+    padding-top: 25px;
+    font-size: 24px;
+  }
+}
+
+.features-blue .intro {
+  font-size: 16px;
+  margin: 0 auto 60px;
+}
+
+@media (max-width:767px) {
+  .features-blue .intro {
+    margin-bottom: 40px;
+  }
+}
+
+.features-blue .item {
+  min-height: 100px;
+  padding-left: 80px;
+  margin-bottom: 40px;
+}
+
+@media (max-width:767px) {
+  .features-blue .item {
+    min-height: 0;
+  }
+}
+
+.features-blue .item .name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 0;
+  color: inherit;
+}
+
+.features-blue .item .description {
+  font-size: 15px;
+  margin-bottom: 0;
+}
+
+.features-blue .item .icon {
+  font-size: 40px;
+  color: #ffcc1e;
+  float: left;
+  margin-left: -65px;
+}
+
+// Highlight Phone
+.highlight-phone {
+  color: #313437;
+  background-color: #eef4f7;
+  padding: 50px 0 55px;
+  overflow: hidden;
+}
+
+@media (max-width:767px) {
+  .highlight-phone {
+    text-align: center;
+  }
+}
+
+.highlight-phone p {
+  color: #7d8285;
+}
+
+.highlight-phone h2 {
+  font-weight: bold;
+  margin-bottom: 35px;
+  line-height: 1.5;
+  padding-top: 0;
+  margin-top: 0;
+  color: inherit;
+}
+
+.highlight-phone .intro {
+  font-size: 18px;
+  max-width: 500px;
+  line-height: 1.5;
+}
+
+@media (max-width:767px) {
+  .highlight-phone .intro {
+    max-width: none;
+  }
+}
+
+.highlight-phone .intro p {
+  margin-bottom: 35px;
+}
+
+.highlight-phone .intro .btn {
+  padding: 16px 32px;
+  border: none;
+  background: none;
+  box-shadow: none;
+  text-shadow: none;
+  opacity: 0.9;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 13px;
+  letter-spacing: 0.4px;
+  line-height: 1;
+}
+
+.highlight-phone .intro .btn:hover {
+  opacity: 1;
+}
+
+.highlight-phone .intro .btn:active {
+  transform: translateY(1px);
+}
+
+.highlight-phone .intro .btn-primary {
+  background-color: #055ada;
+  color: #fff;
+}
+
+.highlight-phone .iphone-mockup {
+  position: relative;
+  max-width: 260px;
+  margin-top: -30px;
+  margin-bottom: -230px;
+  transform: rotate(-15deg);
+}
+
+.highlight-phone .iphone-mockup img.device {
+  width: 100%;
+  height: auto;
+}
+
+.highlight-phone .iphone-mockup .screen {
+  position: absolute;
+  width: 88%;
+  height: 77%;
+  top: 12%;
+  border-radius: 2px;
+  left: 6%;
+  border: 1px solid #444;
+  background-color: #aaa;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+}
+
+.highlight-phone .iphone-mockup .screen:before {
+  content: '';
+  background-color: #fff;
+  position: absolute;
+  width: 70%;
+  height: 140%;
+  top: -12%;
+  right: -60%;
+  transform: rotate(-19deg);
+  opacity: 0.2;
+}
+
+/* Gives hero section container a min-height */
+#inner-hero-tl,
+#inner-hero-ltl,
+#inner-hero-residential,
+#inner-hero-smallbiz {
+  min-height: 50vh;
+}
+
+/**************************
+Truckload Page Styles
+**************************/
+/* Hero/Banner Section */
+#hero-img-right-tl {
+  background-image: url("http://fshippingprod.wpengine.com/wp-content/uploads/2021/04/truckload-3-img-banner-scaled.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat:
+}
+
+#truckload-mover {
+  padding-right: 145px;
+  text-align: center;
+}
+
+#truckload-mover h1 {
+  font-size: 50px;
+}
+
+#truckload-mover p {
+  font-size: 20px;
+}
+
+#truckload-cta {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+#truckload-hero-img {
+  margin-left: -14px;
+}
+
+#fcdeliverstl img {
+  width: auto;
+  height: 70px;
+}
+
+#tl-desc {
+  padding: 5px 10px;
+}
+
+#tl-features-top,
+#tl-features-bottom {
+  padding-bottom: 100px;
+}
+
+#nopadtwenty {
+  padding-top: 0px;
+}
+
+.light-blue {
+  background-color: #ddf2fc;
+}
+
+.medium-blue {
+  background-color: #e4f4fd;
+}
+
+#genspeaking-img-right {
+  background-image: url("http://fshippingprod.wpengine.com/wp-content/uploads/2021/04/truckload-img-scaled.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: -5px;
+}
+
+.padded {
+  padding: 49px 80px;
+}
+
+.padded p {
+  position: absolute;
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 100px;
+  font-weight: 400;
+  color: #459abd;
+}
+
+.padded img {
+  width: auto;
+  height: 80px;
+  display: inline-block;
+}
+
+#genspeaking-content-left {
+  padding: 0px;
+}
+
+.gen-arrow {
+  padding-bottom: 40px;
+}
+
+.gen-arrow-up {
+  padding-top: 80px;
+}
+
+/**************************
+LTL Page Styles
+**************************/
+#tl-banner-holdr {
+  min-height: unset;
+}
+
+#lt-row {
+  height: 50vh;
+}
+
+#padded-ltl {
+  padding: 16px 80px;
+}
+
+#padtop {
+  padding-top: 80px;
+}
+
+#gen-arrow-bottom {
+  padding-top: 120px;
+}
+
+#hero-img-right-ltl {
+  background-image: url("http://fshippingprod.wpengine.com/wp-content/uploads/2021/04/ltl-3-img-banner-scaled.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#genspeaking-img-right-ltl {
+  background-image: url("http://fshippingprod.wpengine.com/wp-content/uploads/2021/04/ltl-img-scaled-1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: -5px;
+}
+
+/**************************
+Residential & Individual Page Styles
+**************************/
+#fcp-features-bottom,
+#fs-p {
+  padding-bottom: 0px;
+}
+
+#resi-row {
+  height: auto;
+}
+
+#pad-right {
+  padding-right: 50px;
+}
+
+#genspeaking-img-right-residential {
+  background-image: url("http://fshippingprod.wpengine.com/wp-content/uploads/2021/04/AdobeStock_390910751-scaled.jpeg");
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+  margin-left: -5px;
+}
+
+#headline-residential {
+  font-size: 45px;
+}
+
+#hero-img-right-residential {
+  background-image: url("http://fshippingprod.wpengine.com/wp-content/uploads/2021/04/AdobeStock_292846293-scaled.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat:
+}
+
+#residential-padded {
+  padding: 100px 80px;
+}
+
+#hero-img-right-smallbiz {
+  background-image: url("http://fshippingprod.wpengine.com/wp-content/uploads/2021/04/small-business-hero-img-scaled.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat:
+}
+
+/**************************
+Media Queries & Breakpoints
+**************************/
+@media only screen and (max-device-width: 480px) {
+
+  /* styles for mobile browsers smaller than 480px; (iPhone) */
+  #homepage-image {
+    background-image: url("http://fshippingprod.wpengine.com/wp-content/uploads/2021/03/Header-Images-edited-mob-1-scaled.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 64vh;
+  }
+
+  #inner-hero-tl {
+    background-image: url("http://fshippingprod.wpengine.com/wp-content/uploads/2021/04/truckload-3-img-banner-mobile-1-scaled.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat:
+  }
+
+  #inner-hero-ltl {
+    background-image: url("http://fshippingprod.wpengine.com/wp-content/uploads/2021/04/ltl-3-img-banner-mobile-scaled.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat:
+  }
+
+  #inner-hero-residential {
+    background-image: url("http://fshippingprod.wpengine.com/wp-content/uploads/2021/04/ltl-3-img-banner-mobile-scaled.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat:
+  }
+
+  #inner-hero-smallbiz {
+    background-image: url("http://fshippingprod.wpengine.com/wp-content/uploads/2021/04/small-business-hero-img-mobile-scaled.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat:
+  }
+
+  #hero-img-right,
+  #hero-img-right-tl,
+  #hero-img-right-ltl,
+  #hero-img-right-residential,
+  #hero-img-right-smallbiz {
+    display: none;
+  }
+
+  #truckload-mover {
+    padding-right: 0px;
+  }
+
+  .highlight-phone .container .row {
+    height: 47vh;
+  }
+
+  .hero-button2 {
+    color: white;
+  }
+
+  .hideOnMobile {
+    display: none;
+  }
+
+  .xGraphic {
+    display: none;
+  }
+
+  .cta {
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  .cta h1 {
+    font-size: 20px;
+  }
+
+  .cta p {
+    font-size: 16px;
+  }
+
+  .top {
+    padding-top: 40px;
+  }
+
+  .bottom {
+    padding-bottom: 40px;
+  }
+
+  .name,
+  .description {
+    text-align: center;
+  }
+
+  .intro h2 {
+    font-size: 30px;
+  }
+
+  .intro p {
+    font-size: 16px;
+  }
+
+  .highlight-phone {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .mover h1 {
+    color: white;
+    font-size: 32px;
+    letter-spacing: -2px;
+    line-height: 37px;
+  }
+
+  .ctaContainer a {
+    font-size: 20px;
+  }
+
+  .mover {
+    padding-left: 0;
+  }
+
+  .features-blue .container .intro h2 {
+    margin-top: 50px;
+  }
+
+  .bottom .container-fluid {
+    padding-top: inherit;
+  }
+
+  .footer-copyright {
+    position: inherit;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .intro2 p {
+    padding: 0px 40px;
+  }
+
+  .features p {
+    padding: 10px 40px;
+  }
+
+  .description {
+    padding: 0px !important;
+  }
+
+  .features2 p {
+    padding: 10px 10px;
+  }
+
+  #shipping-resource-list-fc li a,
+  #shipping-resource-list-follow li a {
+    left: 82px;
+    top: 10px;
+  }
+
+  .logo-footer,
+  #footer-links h5 {
+    margin-left: 81px;
+  }
+
+  hr:not([size]) {
+    background-color: transparent;
+  }
+
+  .pb-3 {
+    padding-bottom: 5rem;
+  }
+
+  #genspeaking-img-right {
+    display: none;
+  }
+
+  #lt-row #truckload-mover {
+    padding-right: 0px;
+  }
+
+  #genspeak-p {
+    position: inherit;
+    display: block;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  #genspeak-number {
+    display: none
+  }
+
+  #genspeaking-mover .padded {
+    padding: 20px;
+  }
+
+  .gen-arrow-up,
+  .bottom-h2 {
+    display: none;
+  }
+
+  #number {
+    display: none;
+  }
+
+  #genp {
+    position: unset;
+    display: unset;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-weight: 400;
+    color: #459abd;
+  }
+}
+
+@media only screen and (device-width: 768px) {
+  #homepage-image {
+    background-image: url("http://fshippingprod.wpengine.com/wp-content/uploads/2021/03/Header-Images-edited-mob-1-scaled.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 64vh;
+  }
+
+  .highlight-phone .container .row {
+    height: 47vh;
+  }
+
+  .xGraphic,
+  .hideOnMobile {
+    display: none;
+  }
+
+  .mover {
+    position: absolute;
+    top: 39%;
+    left: 32%;
+    padding-left: 0px;
+    text-align: center;
+  }
+
+  .mover h1 {
+    font-size: 35px;
+    color: #fff;
+    letter-spacing: -2px;
+    line-height: 35px;
+  }
+
+  .highlight-phone {
+    min-height: inherit;
+  }
+
+  .highlight-phone .container .row {
+    height: inherit;
+  }
+
+  .hero-button1,
+  .hero-button2 {
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #fff;
+  }
+
+  #inner-hero-tl {
+    background-image: url("http://fshippingprod.wpengine.com/wp-content/uploads/2021/04/truckload-3-img-banner-mobile-1-scaled.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  #inner-hero-ltl {
+    background-image: url("http://fshippingprod.wpengine.com/wp-content/uploads/2021/04/ltl-3-img-banner-mobile-scaled.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  #inner-hero-residential {
+    background-image: url("http://fshippingprod.wpengine.com/wp-content/uploads/2021/04/residential-bg-mobile-1-scaled.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  #hero-img-right-tl,
+  #hero-img-right-ltl,
+  #hero-img-right-residential {
+    display: none;
+  }
+
+  #less-than-truckload-mover,
+  #residential-mover {
+    left: 26%;
+    top: 203px;
+  }
+
+  .name {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .xGraphic {
+    height: 78vh;
+    left: 217px;
+  }
+
+  .hideOnMobile img {
+    width: 145vh;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .xGraphic {
+    height: 78vh;
+    left: 321px;
+  }
+
+  .hideOnMobile img {
+    width: 145vh;
+  }
+}
+
+@media only screen and (max-width: 2500px) {
+  .xGraphic {
+    height: 78vh;
+    left: 23vw;
+  }
+
+  .hideOnMobile img {
+    width: 145vh;
+  }
+
+  .mover h1 {
+    line-height: 49px;
+    font-size: 45px;
+  }
+
+  .cta a {
+    font-size: 30px;
+  }
+}
